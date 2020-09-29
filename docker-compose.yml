@@ -1,0 +1,10 @@
+version: "3"
+services:
+    mymongo:
+       image: "mongo"
+        
+
+    dockerjavaapp:
+       image: "java/mongodb/app"
+       ports: 
+          - "2020:8080"    
